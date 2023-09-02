@@ -9,16 +9,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "app")
 public class AppConfig {
-    @Bean
-    public Dog getDog(){
-        Dog dog = new Dog();
-        return dog;
-    }
-
-    @Bean
-    public Timer getTimer(){
-        Timer timer = new Timer();
-        return timer;
-    }
-
 }
